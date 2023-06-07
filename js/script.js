@@ -45,7 +45,7 @@ function multiplicacao(n1, n2) {
     
     switch(resultado) {
         case  '*':
-            document.getElementById('resultado').innerHTML (n1 * n2)
+            document.getElementById('resultado').innerHTML = (n1 * n2)
             break
     }
 }
